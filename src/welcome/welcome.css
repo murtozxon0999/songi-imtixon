@@ -1,0 +1,20 @@
+.welcome {
+  width: 700px;
+  height: 331px;
+  background-color: white;
+  border-radius: 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.welcome-title {
+  font-size: 54px;
+  font-weight: bold;
+}
+
+.btns {
+  display: flex;
+  gap: 8px;
+  margin: 46px 0;
+}

@@ -1,0 +1,19 @@
+.register {
+  width: 700px;
+  height: 539px;
+  background-color: white;
+  border-radius: 30px;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 7px;
+}
+.register-title{
+    font-size: 60px;
+}
+.register-inputs{
+    display: flex;
+    gap: 0 20px;
+}

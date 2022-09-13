@@ -1,0 +1,12 @@
+.edit-profile {
+  width: 700px;
+  height: 661px;
+  border-radius: 30px;
+  background-color: white;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 10px 0;
+}

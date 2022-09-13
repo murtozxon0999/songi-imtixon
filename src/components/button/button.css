@@ -1,0 +1,30 @@
+.button {
+  width: 180px;
+  height: 56px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+  border: none;
+  transition: 2s !important;
+  border-radius: 100px;
+  font-size: 16px;
+  font-weight: bold;
+  color: white;
+  background: rgb(38, 172, 223);
+  background: linear-gradient(
+    90deg,
+    rgba(38, 172, 223, 1) 5%,
+    rgba(64, 227, 151, 1) 97%
+  );
+}
+.button:hover {
+  background: rgb(64, 227, 151);
+  background: linear-gradient(
+    90deg,
+    rgba(64, 227, 151, 1) 10%,
+    rgba(55, 170, 115, 1) 85%
+  );
+  cursor: pointer;
+}
